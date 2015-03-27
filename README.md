@@ -2,6 +2,7 @@
 ---
 
 `lib-semantic-version` is a PHP library for working with the semantic version 2.0.0 standard.  See <a href="http://semver.org/spec/v2.0.0.html">semver.org</a>.
+[![Build Status](https://travis-ci.org/patinthehat/lib-semantic-version.png)](https://travis-ci.org/patinthehat/lib-semantic-version)
 
 ---
 
