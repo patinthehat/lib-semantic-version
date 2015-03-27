@@ -23,6 +23,7 @@ All classes in `lib-semantic-version` are under the `LibSemanticVersion` namespa
 
   *The file `lib-semantic-version-test.php` shows some example usage of the provided classes, in addition to what is here.*
 
+
 ```php
 
   //here we load the version data from a string, then save it to a 
@@ -45,13 +46,13 @@ All classes in `lib-semantic-version` are under the `LibSemanticVersion` namespa
   //manager to increase the patch portion of the version.
   //you can easily specify VersionTypes::MAJOR to increase the
   //major version, and so forth.
+
   $vm = new LibSemanticVersion\VersionManager();
   $vm->loadFromString("1.2.3");
   $vm->increase();
 
   //this will output "1.2.4"
   echo $vm->getVersionData()->patch . PHP_EOL;
-
 ```
 
 ---
